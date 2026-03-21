@@ -10,7 +10,7 @@ chomechome-site/
   food.html           Food menu and ordering
   cleaning.html       Healing Hands Cleaning
   about.html          Story and values
-  contact.html        Contact placeholders
+  contact.html        Contact details
   pay.html            Payment information
   404.html            Not found (GitHub Pages)
   README.md
@@ -41,15 +41,14 @@ Open `http://localhost:8080/` in a browser. Links use **relative paths** so the 
 
 Search the project for each string and replace with real business values. Remove or shorten the gray “launch checklist” boxes on pages when you are done.
 
+**Already set in `contact.html`:** email `chomechomekitchen@gmail.com`, service area Minneapolis–St. Paul metro area, hours Available 24/7 by request. Phone currently reads “Phone available upon confirmation” until a public number is published.
+
 | Placeholder / search key | Where | Purpose |
 |--------------------------|-------|---------|
 | `REPLACE_ORDER_FORM` | `food.html` | Google Form URL for food orders (`[ORDER_FORM_LINK]`) |
 | `REPLACE_CLEANING_FORM` | `cleaning.html` | Google Form URL for cleaning bookings (`[CLEANING_FORM_LINK]`) |
 | `[CASH_APP_HANDLE]` | `pay.html` | Public Cash App handle |
-| `[BUSINESS_PHONE]` | `contact.html` | Phone |
-| `[BUSINESS_EMAIL]` | `contact.html` | Email |
-| `[SERVICE_AREA]` | `contact.html` | Service area |
-| `[BUSINESS_HOURS]` | `contact.html` | Hours |
+| Public phone line | `contact.html` | Replace interim “Phone available upon confirmation” when ready |
 
 External form links already use `rel="noopener noreferrer"` and `target="_blank"`.
 
