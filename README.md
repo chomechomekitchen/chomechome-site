@@ -49,7 +49,7 @@ Search the project for each string and replace with real business values. Remove
 
 | Placeholder / search key | Where | Purpose |
 |--------------------------|-------|---------|
-| `REPLACE_CLEANING_FORM` | `cleaning.html` | Google Form URL for cleaning bookings (`[CLEANING_FORM_LINK]`) — **not verified yet** |
+| Cleaning booking form URL | `cleaning.html` | **Pending:** add a verified Google Form `/viewform` link to the primary CTA when the live form is complete (Q1–Q20, no stray “Option 1”). Until then, `cleaning.html` uses **Contact** + **email** only. |
 | `[CASH_APP_HANDLE]` | `pay.html` | Public Cash App handle |
 | Public phone line | `contact.html` | Replace interim “Phone available upon confirmation” when ready |
 

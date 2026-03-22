@@ -241,8 +241,7 @@ Thank you for submitting your Healing Hands Cleaning service request. We will re
 - [x] Food form: published; public link in `food.html` (commit `3aa5ca0`):  
   `https://docs.google.com/forms/d/e/1FAIpQLSdwR9k96X4rV-PWsYWxZTDoX_GhWths6Aiy6QloJUGUmRdZDA/viewform`
 - [ ] Cleaning form: publish and copy the shareable link when Q1–Q20 are verified on the live `/viewform` (no stray “Option 1”).  
-- [ ] In the repo, replace placeholders (or ask Cursor to patch):  
-  - `cleaning.html`: `https://REPLACE_CLEANING_FORM.invalid` and `REPLACE_CLEANING_FORM`  
+- [ ] In the repo, add the verified cleaning `/viewform` URL to `cleaning.html` (primary CTA) when ready. Until then the page uses contact + email only.  
 - [ ] Add Cash App handle to `pay.html` and public phone to `contact.html` when ready.  
 - [ ] Commit and push site changes.
 
@@ -251,7 +250,7 @@ Thank you for submitting your Healing Hands Cleaning service request. We will re
 | File | Status / placeholder |
 |------|----------------|
 | food.html | **Live** — order form URL deployed; no `REPLACE_ORDER_FORM` in file |
-| cleaning.html | `https://REPLACE_CLEANING_FORM.invalid`, `[CLEANING_FORM_LINK]` — **not launch-ready** until public form is verified |
+| cleaning.html | **No form link yet** — requests via `contact.html` / `chomechomekitchen@gmail.com` until a verified `[CLEANING_FORM_LINK]` is added |
 | contact.html | Email, area, hours set; phone still interim (“Phone available upon confirmation”) |
 | pay.html | `[CASH_APP_HANDLE]` |
 
