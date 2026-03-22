@@ -49,7 +49,7 @@ Search the project for each string and replace with real business values. Remove
 
 | Placeholder / search key | Where | Purpose |
 |--------------------------|-------|---------|
-| Cleaning booking form URL | `cleaning.html` | **Pending:** add a verified Google Form `/viewform` link to the primary CTA when the live form is complete (Q1–Q20, no stray “Option 1”). Until then, `cleaning.html` uses **Contact** + **email** only. |
+| Cleaning booking form URL | `cleaning.html` | **Live:** primary CTA points to `https://docs.google.com/forms/d/e/1FAIpQLSeTTy4c1h5JRK_5fUy5V-yFj9nGPeX-MzzGogN1KsR9BrTJUg/viewform`. Contact and email remain as secondary options. |
 | `[CASH_APP_HANDLE]` | `pay.html` | Public Cash App handle |
 | Public phone line | `contact.html` | Replace interim “Phone available upon confirmation” when ready |
 
@@ -66,7 +66,8 @@ External form links already use `rel="noopener noreferrer"` and `target="_blank"
 ## Post-launch checklist
 
 - [x] Food order form URL in `food.html` (live; commit `3aa5ca0`)
-- [ ] All remaining placeholders in the table above replaced
+- [x] Cleaning request form URL in `cleaning.html` (verified `/viewform`)
+- [ ] All remaining placeholders in the table above replaced (`[CASH_APP_HANDLE]`, public phone)
 - [ ] Food and cleaning form links tested end-to-end
 - [ ] Cash App handle and any other payment text match what you send in confirmations
 - [ ] Contact details and hours are accurate

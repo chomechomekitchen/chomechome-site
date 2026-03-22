@@ -240,17 +240,17 @@ Thank you for submitting your Healing Hands Cleaning service request. We will re
 
 - [x] Food form: published; public link in `food.html` (commit `3aa5ca0`):  
   `https://docs.google.com/forms/d/e/1FAIpQLSdwR9k96X4rV-PWsYWxZTDoX_GhWths6Aiy6QloJUGUmRdZDA/viewform`
-- [ ] Cleaning form: publish and copy the shareable link when Q1–Q20 are verified on the live `/viewform` (no stray “Option 1”).  
-- [ ] In the repo, add the verified cleaning `/viewform` URL to `cleaning.html` (primary CTA) when ready. Until then the page uses contact + email only.  
+- [x] Cleaning form: published; verified on live `/viewform` (Q1–Q20, no stray “Option 1”).  
+- [x] Verified cleaning `/viewform` URL added to `cleaning.html` (primary CTA); contact + email remain secondary.  
 - [ ] Add Cash App handle to `pay.html` and public phone to `contact.html` when ready.  
-- [ ] Commit and push site changes.
+- [ ] Commit and push when those payment/contact values are supplied.
 
 ### Site placeholder strings (current)
 
 | File | Status / placeholder |
 |------|----------------|
 | food.html | **Live** — order form URL deployed; no `REPLACE_ORDER_FORM` in file |
-| cleaning.html | **No form link yet** — requests via `contact.html` / `chomechomekitchen@gmail.com` until a verified `[CLEANING_FORM_LINK]` is added |
+| cleaning.html | **Live** — primary CTA: `https://docs.google.com/forms/d/e/1FAIpQLSeTTy4c1h5JRK_5fUy5V-yFj9nGPeX-MzzGogN1KsR9BrTJUg/viewform`; contact + email secondary |
 | contact.html | Email, area, hours set; phone still interim (“Phone available upon confirmation”) |
 | pay.html | `[CASH_APP_HANDLE]` |
 
