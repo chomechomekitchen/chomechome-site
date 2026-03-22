@@ -43,10 +43,13 @@ Search the project for each string and replace with real business values. Remove
 
 **Already set in `contact.html`:** email `chomechomekitchen@gmail.com`, service area Minneapolis–St. Paul metro area, hours Available 24/7 by request. Phone currently reads “Phone available upon confirmation” until a public number is published.
 
+**Food order form (`food.html`):** live. The “Open the order form” button points to  
+`https://docs.google.com/forms/d/e/1FAIpQLSdwR9k96X4rV-PWsYWxZTDoX_GhWths6Aiy6QloJUGUmRdZDA/viewform`  
+(landed in commit `3aa5ca0`). No `REPLACE_ORDER_FORM` / `[ORDER_FORM_LINK]` strings remain in that file.
+
 | Placeholder / search key | Where | Purpose |
 |--------------------------|-------|---------|
-| `REPLACE_ORDER_FORM` | `food.html` | Google Form URL for food orders (`[ORDER_FORM_LINK]`) |
-| `REPLACE_CLEANING_FORM` | `cleaning.html` | Google Form URL for cleaning bookings (`[CLEANING_FORM_LINK]`) |
+| `REPLACE_CLEANING_FORM` | `cleaning.html` | Google Form URL for cleaning bookings (`[CLEANING_FORM_LINK]`) — **not verified yet** |
 | `[CASH_APP_HANDLE]` | `pay.html` | Public Cash App handle |
 | Public phone line | `contact.html` | Replace interim “Phone available upon confirmation” when ready |
 
@@ -62,8 +65,9 @@ External form links already use `rel="noopener noreferrer"` and `target="_blank"
 
 ## Post-launch checklist
 
-- [ ] All placeholders in the table above replaced
-- [ ] Order and cleaning form links tested end-to-end
+- [x] Food order form URL in `food.html` (live; commit `3aa5ca0`)
+- [ ] All remaining placeholders in the table above replaced
+- [ ] Food and cleaning form links tested end-to-end
 - [ ] Cash App handle and any other payment text match what you send in confirmations
 - [ ] Contact details and hours are accurate
 - [ ] Open the site on a phone and confirm the menu and forms behave as expected
