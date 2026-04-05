@@ -242,8 +242,8 @@ Thank you for submitting your Healing Hands Cleaning service request. We will re
   `https://docs.google.com/forms/d/e/1FAIpQLSdwR9k96X4rV-PWsYWxZTDoX_GhWths6Aiy6QloJUGUmRdZDA/viewform`
 - [x] Cleaning form: published; verified on live `/viewform` (Q1–Q20, no stray “Option 1”).  
 - [x] Verified cleaning `/viewform` URL added to `cleaning.html` (primary CTA); contact + email remain secondary.  
-- [ ] Add Cash App handle to `pay.html` and public phone to `contact.html` when ready.  
-- [ ] Commit and push when those payment/contact values are supplied.
+- [x] Cash App handle in `pay.html` (`$ChomeChomeKitchen`) and public phone in `contact.html` (`651-235-6666`).  
+- [x] Site files updated in the repo (`pay.html`, `contact.html`); push to `origin main` required for GitHub Pages.
 
 ### Site placeholder strings (current)
 
@@ -251,7 +251,7 @@ Thank you for submitting your Healing Hands Cleaning service request. We will re
 |------|----------------|
 | food.html | **Live** — order form URL deployed; no `REPLACE_ORDER_FORM` in file |
 | cleaning.html | **Live** — primary CTA: `https://docs.google.com/forms/d/e/1FAIpQLSeTTy4c1h5JRK_5fUy5V-yFj9nGPeX-MzzGogN1KsR9BrTJUg/viewform`; contact + email secondary |
-| contact.html | Email, area, hours set; phone still interim (“Phone available upon confirmation”) |
-| pay.html | `[CASH_APP_HANDLE]` |
+| contact.html | **Live** — email, area, hours, phone `651-235-6666` |
+| pay.html | **Live** — Cash App `$ChomeChomeKitchen` |
 
 Do not invent URLs or business data. Use only live values supplied by the operator.

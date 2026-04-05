@@ -41,7 +41,7 @@ Open `http://localhost:8080/` in a browser. Links use **relative paths** so the 
 
 Search the project for each string and replace with real business values. Remove or shorten the gray “launch checklist” boxes on pages when you are done.
 
-**Already set in `contact.html`:** email `chomechomekitchen@gmail.com`, service area Minneapolis–St. Paul metro area, hours Available 24/7 by request. Phone currently reads “Phone available upon confirmation” until a public number is published.
+**Already set in `contact.html`:** email `chomechomekitchen@gmail.com`, phone `651-235-6666`, service area Minneapolis–St. Paul metro area, hours Available 24/7 by request.
 
 **Food order form (`food.html`):** live. The “Open the order form” button points to  
 `https://docs.google.com/forms/d/e/1FAIpQLSdwR9k96X4rV-PWsYWxZTDoX_GhWths6Aiy6QloJUGUmRdZDA/viewform`  
@@ -50,8 +50,8 @@ Search the project for each string and replace with real business values. Remove
 | Placeholder / search key | Where | Purpose |
 |--------------------------|-------|---------|
 | Cleaning booking form URL | `cleaning.html` | **Live:** primary CTA points to `https://docs.google.com/forms/d/e/1FAIpQLSeTTy4c1h5JRK_5fUy5V-yFj9nGPeX-MzzGogN1KsR9BrTJUg/viewform`. Contact and email remain as secondary options. |
-| `[CASH_APP_HANDLE]` | `pay.html` | Public Cash App handle |
-| Public phone line | `contact.html` | Replace interim “Phone available upon confirmation” when ready |
+| Cash App handle | `pay.html` | **Live:** `$ChomeChomeKitchen` |
+| Public phone line | `contact.html` | **Live:** `651-235-6666` |
 
 External form links already use `rel="noopener noreferrer"` and `target="_blank"`.
 
@@ -67,7 +67,7 @@ External form links already use `rel="noopener noreferrer"` and `target="_blank"
 
 - [x] Food order form URL in `food.html` (live; commit `3aa5ca0`)
 - [x] Cleaning request form URL in `cleaning.html` (verified `/viewform`)
-- [ ] All remaining placeholders in the table above replaced (`[CASH_APP_HANDLE]`, public phone)
+- [x] Cash App handle in `pay.html` and public phone in `contact.html` (live)
 - [ ] Food and cleaning form links tested end-to-end
 - [ ] Cash App handle and any other payment text match what you send in confirmations
 - [ ] Contact details and hours are accurate
